@@ -1,0 +1,14 @@
+{
+    "blunders": {
+        "ref": "#/relationship/mongodb-atlas/knight_shift/Blunder",
+        "source_key": "blunders",
+        "foreign_key": "_id",
+        "is_list": true
+    },
+    "missedMates": {
+        "ref": "#/relationship/mongodb-atlas/knight_shift/MissedMate",
+        "source_key": "missedMates",
+        "foreign_key": "_id",
+        "is_list": true
+    }
+}

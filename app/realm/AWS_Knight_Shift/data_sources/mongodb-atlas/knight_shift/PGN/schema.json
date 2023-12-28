@@ -1,0 +1,51 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "black": {
+            "bsonType": "string"
+        },
+        "blunders": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "date": {
+            "bsonType": "string"
+        },
+        "event": {
+            "bsonType": "string"
+        },
+        "missedMates": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "moves": {
+            "bsonType": "string"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "result": {
+            "bsonType": "string"
+        },
+        "round": {
+            "bsonType": "string"
+        },
+        "site": {
+            "bsonType": "string"
+        },
+        "white": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "owner_id"
+    ],
+    "title": "PGN"
+}

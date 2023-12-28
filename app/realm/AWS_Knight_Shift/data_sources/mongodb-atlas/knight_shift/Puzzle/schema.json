@@ -1,0 +1,39 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "altMove": {
+            "bsonType": "string"
+        },
+        "easinessFactor": {
+            "bsonType": "double"
+        },
+        "fen": {
+            "bsonType": "string"
+        },
+        "lastReview": {
+            "bsonType": "date"
+        },
+        "move": {
+            "bsonType": "string"
+        },
+        "numCorrectRecalls": {
+            "bsonType": "long"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        },
+        "repetitionInterval": {
+            "bsonType": "long"
+        }
+    },
+    "required": [
+        "owner_id",
+        "numCorrectRecalls",
+        "easinessFactor",
+        "repetitionInterval"
+    ],
+    "title": "Puzzle"
+}

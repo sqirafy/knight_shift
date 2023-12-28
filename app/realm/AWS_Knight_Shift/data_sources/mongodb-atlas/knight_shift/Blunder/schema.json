@@ -1,0 +1,31 @@
+{
+    "bsonType": "object",
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "altMoves": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "fen": {
+            "bsonType": "string"
+        },
+        "move": {
+            "bsonType": "string"
+        },
+        "moveNumber": {
+            "bsonType": "long"
+        },
+        "owner_id": {
+            "bsonType": "string"
+        }
+    },
+    "required": [
+        "owner_id",
+        "moveNumber"
+    ],
+    "title": "Blunder"
+}
